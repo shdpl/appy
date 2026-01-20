@@ -19,11 +19,11 @@
  * @since 3.0.0
  */
 
-import * as E from 'fp-ts/Either';
-import {stringify} from 'fp-ts/Json';
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import * as TU from 'fp-ts/Tuple';
-import {pipe} from 'fp-ts/function';
+import * as E from 'fp-ts/lib/Either.js';
+import {stringify} from 'fp-ts/lib/Json.js';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import * as TU from 'fp-ts/lib/Tuple.js';
+import {pipe} from 'fp-ts/lib/function.js';
 import {
   type Req,
   type ReqInput,
@@ -31,7 +31,7 @@ import {
   type Combinator,
   normalizeReqInput,
   toRequestError
-} from '../request';
+} from '../request.js';
 
 /**
  * Sets the provided `body` (automatically converted to string when JSON) on `Req` init object and returns the updated `Req`.

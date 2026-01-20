@@ -4,14 +4,14 @@
  * @since 3.0.0
  */
 
-import * as E from 'fp-ts/Either';
-import {parse} from 'fp-ts/Json';
-import {ReaderEither, mapLeft} from 'fp-ts/ReaderEither';
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import {pipe} from 'fp-ts/function';
-import {type Err, type Req, type Resp, toResponseError} from '../request';
-import {cloneResponse} from '../response';
-import {withHeaders} from './headers';
+import * as E from 'fp-ts/lib/Either.js';
+import {parse} from 'fp-ts/lib/Json.js';
+import {ReaderEither, mapLeft} from 'fp-ts/lib/ReaderEither.js';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import {pipe} from 'fp-ts/lib/function.js';
+import {type Err, type Req, type Resp, toResponseError} from '../request.js';
+import {cloneResponse} from '../response.js';
+import {withHeaders} from './headers.js';
 
 /**
  * Encodes a generic decoder, namely a function which takes an `unknown` input (usually a JSON object) and tries to decode it, returning a `Right<A>` if it succeeds or a `Left<L>` otherwise.

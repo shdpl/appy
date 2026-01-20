@@ -12,14 +12,14 @@
  * @see {@link https://gcanti.github.io/fp-ts/ReaderTaskEither.html|ReaderTaskEither}
  */
 
-import {pipe} from 'fp-ts/function';
-import {withMethod} from './combinators/method';
-import {Req, request} from './request';
+import {pipe} from 'fp-ts/lib/function.js';
+import {withMethod} from './combinators/method.js';
+import {Req, request} from './request.js';
 
 /**
  * @since 3.0.0
  */
-export * from './request';
+export * from './request.js';
 
 /**
  * Makes a request with the `method` set to `GET`.

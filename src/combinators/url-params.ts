@@ -16,9 +16,9 @@
  * @since 3.0.0
  */
 
-import * as E from 'fp-ts/Either';
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import {pipe} from 'fp-ts/function';
+import * as E from 'fp-ts/lib/Either.js';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import {pipe} from 'fp-ts/lib/function.js';
 import {
   type Err,
   type Req,
@@ -27,7 +27,7 @@ import {
   type Combinator,
   normalizeReqInput,
   toRequestError
-} from '../request';
+} from '../request.js';
 
 /**
  * @category URLSearchParams

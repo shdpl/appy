@@ -12,8 +12,8 @@
  * @see {@link https://gcanti.github.io/fp-ts/ReaderTaskEither.html|ReaderTaskEither}
  */
 
-import * as E from 'fp-ts/Either';
-import {ReaderTaskEither} from 'fp-ts/ReaderTaskEither';
+import * as E from 'fp-ts/lib/Either.js';
+import {ReaderTaskEither} from 'fp-ts/lib/ReaderTaskEither.js';
 
 /**
  * `Req<A>` encodes a resource's request, or rather, an async operation that can fail or return a `Resp<A>`.

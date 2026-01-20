@@ -16,12 +16,12 @@
  * @since 3.0.0
  */
 
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import {getMonoid} from 'fp-ts/Record';
-import {last} from 'fp-ts/Semigroup';
-import * as TU from 'fp-ts/Tuple';
-import {pipe} from 'fp-ts/function';
-import {type Combinator, normalizeReqInput} from '../request';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import {getMonoid} from 'fp-ts/lib/Record.js';
+import {last} from 'fp-ts/lib/Semigroup.js';
+import * as TU from 'fp-ts/lib/Tuple.js';
+import {pipe} from 'fp-ts/lib/function.js';
+import {type Combinator, normalizeReqInput} from '../request.js';
 
 type Hs = Record<string, string>;
 

@@ -16,10 +16,10 @@
  * @since 4.0.0
  */
 
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import * as TU from 'fp-ts/Tuple';
-import {pipe} from 'fp-ts/function';
-import {type Combinator, normalizeReqInput} from '../request';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import * as TU from 'fp-ts/lib/Tuple.js';
+import {pipe} from 'fp-ts/lib/function.js';
+import {type Combinator, normalizeReqInput} from '../request.js';
 
 /**
  * Sets provided method on `Req` and returns the updated `Req`.

@@ -30,10 +30,10 @@
  * @since 3.1.0
  */
 
-import * as RTE from 'fp-ts/ReaderTaskEither';
-import * as TU from 'fp-ts/Tuple';
-import {pipe} from 'fp-ts/function';
-import {type Req, type Combinator, normalizeReqInput} from '../request';
+import * as RTE from 'fp-ts/lib/ReaderTaskEither.js';
+import * as TU from 'fp-ts/lib/Tuple.js';
+import {pipe} from 'fp-ts/lib/function.js';
+import {type Req, type Combinator, normalizeReqInput} from '../request.js';
 
 /**
  * Sets `signal` on `Req` in order to make request cancellable through `AbortController`.
