@@ -68,7 +68,7 @@
     "npm": ">= 8.0"
   },
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "tsc -p ./tsconfig.build.json && tsc -p ./tsconfig.build-es6.json",
     "check": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "pretest": "npm run check && npm run lint",
