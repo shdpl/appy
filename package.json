@@ -6,47 +6,56 @@
     ".": {
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts",
-      "module-sync": "./dist/_es6/index.js"
+      "module-sync": "./dist/_es6/index.js",
+      "module": "./dist/_es6/index.js"
     },
     "./request": {
       "require": "./dist/request.js",
       "types": "./dist/request.d.ts",
-      "module-sync": "./dist/_es6/request.js"
+      "module-sync": "./dist/_es6/request.js",
+      "module": "./dist/_es6/request.js"
     },
     "./response": {
       "require": "./dist/response.js",
       "types": "./dist/response.d.ts",
-      "module-sync": "./dist/_es6/response.js"
+      "module-sync": "./dist/_es6/response.js",
+      "module": "./dist/_es6/response.js"
     },
     "./combinators/abort": {
       "require": "./dist/combinators/abort.js",
       "types": "./dist/combinators/abort.d.ts",
-      "module-sync": "./dist/_es6/combinators/abort.js"
+      "module-sync": "./dist/_es6/combinators/abort.js",
+      "module": "./dist/_es6/combinators/abort.js"
     },
     "./combinators/body": {
       "require": "./dist/combinators/body.js",
       "types": "./dist/combinators/body.d.ts",
-      "module-sync": "./dist/_es6/combinators/body.js"
+      "module-sync": "./dist/_es6/combinators/body.js",
+      "module": "./dist/_es6/combinators/body.js"
     },
     "./combinators/decoder": {
       "require": "./dist/combinators/decoder.js",
       "types": "./dist/combinators/decoder.d.ts",
-      "module-sync": "./dist/_es6/combinators/decoder.js"
+      "module-sync": "./dist/_es6/combinators/decoder.js",
+      "module": "./dist/_es6/combinators/decoder.js"
     },
     "./combinators/headers": {
       "require": "./dist/combinators/headers.js",
       "types": "./dist/combinators/headers.d.ts",
-      "module-sync": "./dist/_es6/combinators/headers.js"
+      "module-sync": "./dist/_es6/combinators/headers.js",
+      "module": "./dist/_es6/combinators/headers.js"
     },
     "./combinators/method": {
       "require": "./dist/combinators/method.js",
       "types": "./dist/combinators/method.d.ts",
-      "module-sync": "./dist/_es6/combinators/method.js"
+      "module-sync": "./dist/_es6/combinators/method.js",
+      "module": "./dist/_es6/combinators/method.js"
     },
     "./combinators/url-params": {
       "require": "./dist/combinators/url-params.js",
       "types": "./dist/combinators/url-params.d.ts",
-      "module-sync": "./dist/_es6/combinators/url-params.js"
+      "module-sync": "./dist/_es6/combinators/url-params.js",
+      "module": "./dist/_es6/combinators/url-params.js"
     }
   },
   "sideEffects": false,
